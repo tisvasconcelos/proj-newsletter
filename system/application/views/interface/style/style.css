@@ -1,0 +1,108 @@
+/*
+@author 2idea
+*/
+body{margin: 0; font: 12px "Verdana";}
+div.center{position: relative; margin: 0 auto; width: 882px;}
+
+#header{float: left; width: 100%; border-bottom: solid #f2f2f2 2px; padding: 20px 0;}
+#header h1{float: left; width: 76px; height: 85px; margin : 0;}
+#header h1 a{float: left; width: 76px; height: 85px; background: url(../images/newsletter.gif); text-indent: -9999px; outline: 0 none;}
+#header ul{float: right; background: #e6e6e6; display: inline; list-style: none; padding: 8px 10px; margin: 0; -moz-border-radius: 5px; border-radius: 5px;}
+#header ul li{float: left;}
+#header ul li a{text-decoration: none; color: #888; padding: 0 10px 0 0; margin: 0 10px 0 0; border-right: solid #888 1px;}
+#header ul li.last a{padding: 0; margin: 0; border: 0;}
+#header ul li a:hover, #header ul li a:focus{text-decoration: underline;}
+#header form{float: right; clear: right; margin: 20px 0 0 0; background: url(../images/bg_search.gif) no-repeat left 2px; padding: 0 0 0 20px;}
+#header form fieldset{float: left; border: none; margin: 0; padding: 0;}
+#header form fieldset input{float: left; border: solid #ccc 1px; height: 16px; width: 122px; margin: 0 5px 0 0;}
+#header form fieldset button{float: left; border: solid #8bbbdb 1px; background: #006fbb; color: #fff; cursor: pointer;}
+
+#main{float: left; position: relative; margin: 0 auto; width: 100%; padding: 14px 0;}
+#main #userInfo{float: right; color: #676767; width: 188px; display: inline; background: #f2f8fc; padding: 16px; font-size: 11px; -moz-border-radius: 5px; border-radius: 5px;}
+#main #userInfo a{float: left; color: #009999;}
+#main #userInfo a:hover, #main #userInfo a:focus{text-decoration: none;}
+#main #userInfo p{float: left; margin: 0;}
+#main #userInfo ul{float: left; display: inline; list-style: none; padding: 0; margin: 8px 0 0 0;}
+#main #userInfo ul li{float: left; width: 188px; border-top: solid #c2c6ca 1px;}
+#main #userInfo ul li a{color: #676767; width: 162px; text-decoration: none; font-weight: bold; padding: 6px 0 6px 26px; margin: 10px 0;}
+#main #userInfo ul li a:hover, #main #userInfo ul li a:focus{text-decoration: underline;}
+#main #userInfo ul li a.user{background: url(../images/ico_user.gif) no-repeat 2px top;}
+
+#main table thead{background: #f2f2f2;}
+#main table thead tr th{padding: 5px; text-align: left;}
+#main table tbody tr td{padding: 5px; text-align: left; border-bottom: solid #f2f2f2 1px;}
+#main table tbody tr td a{text-decoration: none; color: #333333; outline: 0 none;}
+#main table tbody tr td a.print{float: left; width: 16px; height: 16px; margin: 1px 2px; background: url(../images/ico_print.png) no-repeat; text-indent: -9999px;}
+#main table tbody tr td a.send{float: left; width: 16px; height: 16px; margin: 1px 2px; background: url(../images/ico_send.png) no-repeat; text-indent: -9999px;}
+#main table tbody tr td a.edit{float: left; width: 16px; height: 16px; margin: 1px 2px; background: url(../images/ico_edit.png) no-repeat; text-indent: -9999px;}
+#main table tbody tr td a.list{float: left; width: 16px; height: 16px; margin: 1px 2px; background: url(../images/ico_new.gif) no-repeat; text-indent: -9999px;}
+#main table tbody tr td a.export{float: left; width: 16px; height: 16px; margin: 1px 2px; background: url(../images/export.png) no-repeat; text-indent: -9999px;}
+#main table tbody tr td a.delete{float: left; width: 16px; height: 16px; margin: 1px 2px; background: url(../images/ico_delete.gif) no-repeat; text-indent: -9999px;}
+
+#main a.new{-moz-border-radius: 5px 5px 5px 5px; border-radius: 5px 5px 5px 5px; float: right;	background: #ddeafa url(../images/ico_new.gif) no-repeat 4px 5px; padding: 5px 10px 5px 22px; color: #102b6f; margin: 5px 0; text-decoration: none;}
+
+#main .dashboard{float: left; width: 620px; padding: 10px;}
+#main .dashboard hr{float: left; width: 620px; margin: 20px 0; border: dashed #e3e3e3 1px;}
+
+#main .frmTemplate{float: left; width: 100%; background: #f2f2f2; padding: 10px; -moz-border-radius: 5px; border-radius: 5px;}
+#main .frmTemplate h2{background: url(../images/ico_list.gif) no-repeat 2px top; padding: 0 0 0 30px;}
+#main .frmTemplate fieldset{float: left; border: none; padding: 0; width: 100%;}
+#main .frmTemplate fieldset p{float: left; width: 50%; height: 30px; margin: 5px 0;}
+#main .frmTemplate fieldset p label{float: left; width: 100px; padding: 2px 0 0 0; color: #676767;}
+#main .frmTemplate fieldset p label.error{float: left; display: inline; margin: 0 0 0 100px; padding: 0; width: 249px; font-size: 9px; color: #ff0000;}
+#main .frmTemplate fieldset p input{float: left; border: solid #ccc 1px; height: 16px; width: 330px; margin: 0 5px 0 0;}
+#main .frmTemplate fieldset p input.file{height: 23px;}
+#main .frmTemplate fieldset textarea{float: left; border: solid #ccc 1px; height: 300px; width: 875px; margin: 0 5px 0 0;}
+#main .frmTemplate fieldset p input.error{border: 1px solid #ff0000;}
+#main .frmTemplate fieldset p button{float: right; cursor: pointer; color: #006fbb; border: none; background: #f2f8fc url(../images/ico_save.gif) no-repeat 6px center; font-weight: bold; -moz-border-radius: 5px; border-radius: 5px; padding: 5px 8px 5px 18px;}
+#main .frmTemplate fieldset p a{float: right; cursor: pointer; color: #006fbb; border: none; background: #f2f8fc url(../images/ico_delete.gif) no-repeat 6px center; font-weight: bold; -moz-border-radius: 5px; border-radius: 5px; padding: 5px 8px 5px 18px;}
+
+#main .frmNewsletter{float: left; width: 100%; background: #f2f2f2; padding: 10px; -moz-border-radius: 5px; border-radius: 5px;}
+#main .frmNewsletter h2{background: url(../images/ico_list.gif) no-repeat 2px top; padding: 0 0 0 30px;}
+#main .frmNewsletter fieldset{float: left; border: none; padding: 0; width: 100%;}
+#main .frmNewsletter fieldset p{float: left; width: 50%; height: 30px; margin: 5px 0;}
+#main .frmNewsletter fieldset p label{float: left; width: 120px; padding: 2px 0 0 0; color: #676767;}
+#main .frmNewsletter fieldset p label.error{float: left; display: inline; margin: 0 0 0 120px; padding: 0; width: 249px; font-size: 9px; color: #ff0000;}
+#main .frmNewsletter fieldset p input, #main .frmNewsletter fieldset p select{float: left; border: solid #ccc 1px; height: 16px; width: 310px; margin: 0 5px 0 0;}
+#main .frmNewsletter fieldset p select{height: 20px; background: #fff;}
+#main .frmNewsletter fieldset p input.error, #main .frmNewsletter fieldset p select.error{border: 1px solid #ff0000;}
+#main .frmNewsletter fieldset p button{float: right; cursor: pointer; color: #006fbb; border: none; background: #f2f8fc url(../images/ico_save.gif) no-repeat 6px center; font-weight: bold; -moz-border-radius: 5px; border-radius: 5px; padding: 5px 8px 5px 18px;}
+#main .frmNewsletter fieldset p a{float: right; cursor: pointer; color: #006fbb; border: none; background: #f2f8fc url(../images/ico_delete.gif) no-repeat 6px center; font-weight: bold; -moz-border-radius: 5px; border-radius: 5px; padding: 5px 8px 5px 18px;}
+
+#main .frmMailing{float: left; width: 100%; background: #f2f2f2; padding: 10px; -moz-border-radius: 5px; border-radius: 5px;}
+#main .frmMailing h2{background: url(../images/ico_list.gif) no-repeat 2px top; padding: 0 0 0 30px;}
+#main .frmMailing fieldset{float: left; border: none; padding: 0; width: 100%;}
+#main .frmMailing fieldset p{float: left; width: 50%; height: 30px; margin: 5px 0;}
+#main .frmMailing fieldset p label{float: left; width: 100px; padding: 2px 0 0 0; color: #676767;}
+#main .frmMailing fieldset p label.error{float: left; display: inline; margin: 0 0 0 100px; padding: 0; width: 249px; font-size: 9px; color: #ff0000;}
+#main .frmMailing fieldset p input{float: left; border: solid #ccc 1px; height: 16px; width: 330px; margin: 0 5px 0 0;}
+#main .frmMailing fieldset p input.file{height: 23px;}
+#main .frmMailing fieldset p input.error{border: 1px solid #ff0000;}
+#main .frmMailing fieldset p button{float: right; cursor: pointer; color: #006fbb; border: none; background: #f2f8fc url(../images/ico_save.gif) no-repeat 6px center; font-weight: bold; -moz-border-radius: 5px; border-radius: 5px; padding: 5px 8px 5px 18px;}
+#main .frmMailing fieldset p a{float: right; cursor: pointer; color: #006fbb; border: none; background: #f2f8fc url(../images/ico_delete.gif) no-repeat 6px center; font-weight: bold; -moz-border-radius: 5px; border-radius: 5px; padding: 5px 8px 5px 18px;}
+
+#main .frmMyProfile{float: left; width: 100%; background: #f2f2f2; padding: 10px; -moz-border-radius: 5px; border-radius: 5px;}
+#main .frmMyProfile h2{background: url(../images/ico_user.gif) no-repeat 2px top; padding: 0 0 0 30px;}
+#main .frmMyProfile fieldset{float: left; border: none; padding: 0; width: 100%;}
+#main .frmMyProfile fieldset p{float: left; width: 50%; height: 30px; margin: 5px 0;}
+#main .frmMyProfile fieldset p label{float: left; width: 100px; padding: 2px 0 0 0; color: #676767;}
+#main .frmMyProfile fieldset p label.error{float: left; display: inline; margin: 0 0 0 100px; padding: 0; width: 249px; font-size: 9px; color: #ff0000;}
+#main .frmMyProfile fieldset p input{float: left; border: solid #ccc 1px; height: 16px; width: 330px; margin: 0 5px 0 0;}
+#main .frmMyProfile fieldset p input.error{border: 1px solid #ff0000;}
+#main .frmMyProfile fieldset p button{float: right; cursor: pointer; color: #006fbb; border: none; background: #f2f8fc url(../images/ico_save.gif) no-repeat 6px center; font-weight: bold; -moz-border-radius: 5px; border-radius: 5px; padding: 5px 8px 5px 18px;}
+#main .frmMyProfile fieldset p a{float: right; cursor: pointer; color: #006fbb; border: none; background: #f2f8fc url(../images/ico_delete.gif) no-repeat 6px center; font-weight: bold; -moz-border-radius: 5px; border-radius: 5px; padding: 5px 8px 5px 18px;}
+
+p.remove{
+	float: left;
+	margin: 10px;
+}
+
+.bgModal{float: left; width: 100%; height: 100%; position: absolute; z-index: 10; background: #000; opacity: 0.65; filter: alpha(opacity=65);}
+.boxModal{position: absolute; top: 50px; left: 50px; background: #fff; z-index: 20; width: 300px; height: 100px;}
+.boxModal p{float: left; margin: 10px 10px 0 10px; width: 280px; height: auto; font-size: 11px;}
+.boxModal div{float: left; margin: 10px; width: 280px; padding: 10px 0;}
+.boxModal div span{float: left; width: 100%; height: 14px; color: #000; text-align: left;}
+.boxModal div a{color: #000; text-decoration: underline;}
+
+#footer{float: left; position: absolute; bottom: 0px; width: 100%; background: #cce3f2; padding: 10px 0;}
+#footer a{float: left;}

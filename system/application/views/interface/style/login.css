@@ -1,0 +1,34 @@
+/*
+@author 2idea
+*/
+body{margin: 0; font: 12px "Verdana"}
+div.center{position: relative; margin: 0 auto; width: 882px}
+
+#header{float: left; width: 100%; background: #f2f2f2; padding: 20px 0}
+#header h1{float: left; width: 319px; height: 65px; margin : 0;}
+#header h1 a{float: left; width: 319px; height: 65px; /*background: url(../images/logo.jpg); text-indent: -9999px;*/}
+#header ul{float: right; background: #e6e6e6; display: inline; list-style: none; padding: 8px 10px; margin: 0; -moz-border-radius: 5px; border-radius: 5px;}
+#header ul li{float: left;}
+#header ul li a{text-decoration: none; color: #888; padding: 0 10px 0 0; margin: 0 10px 0 0; border-right: solid #888 1px;}
+#header ul li.last a{padding: 0; margin: 0; border: 0;}
+#header ul li a:hover, #header ul li a:focus{text-decoration: underline;}
+#header form{float: right; clear: right; margin: 20px 0 0 0; background: url(../images/bg_search.gif) no-repeat left 2px; padding: 0 0 0 20px;}
+#header form fieldset{float: left; border: none; margin: 0; padding: 0;}
+#header form fieldset input{float: left; border: solid #ccc 1px; height: 16px; width: 122px; margin: 0 5px 0 0;}
+#header form fieldset button{float: left; border: solid #8bbbdb 1px; background: #006fbb; color: #fff; cursor: pointer;}
+
+#main{float: left; position: relative; margin: 0 auto; width: 100%; padding: 14px 0;}
+
+#login{width: 360px; margin: 0 auto;}
+#login .frmLogin{float: left; display: inline; margin: 100px 0; padding: 0; width: 360px;}		
+#login .frmLogin fieldset{float: left; display: inline; padding: 16px 46px; height: 100px; width: 258px; height: auto; background: #cce3f2; border: none; -moz-border-radius: 8px; border-radius: 8px;}
+#login .frmLogin p{float: left; display: inline; margin: 0 0 10px 0; width: 257px;}
+#login .frmLogin p.message{float: left; display: inline; margin: 0; color: #ff0000; font-size: 11px;}
+#login .frmLogin p label{float: left; display: inline; width: 249px; padding: 4px 0; color: #006fbb; font-size: 11px;}
+#login .frmLogin p label.error{float: left; display: inline; margin: 0; padding: 0; width: 249px; font-size: 9px; color: #ff0000;}
+#login .frmLogin p input{float: left; display: inline; width: 245px; padding: 5px; border: 1px solid #ddd; font-size: 16px;}
+#login .frmLogin p input.error{border: 1px solid #ff0000;}
+#login .frmLogin p button{float: right; cursor: pointer; display: inline; width: 80px; padding: 5px; border: none; background: #f2f8fc; color: #006fbb; font: 12px "Verdana"; -moz-border-radius: 5px; border-radius: 5px;}
+
+#footer{float: left; position: absolute; bottom: 0px; width: 100%; background: #cce3f2; padding: 10px 0}
+#footer a{float: left;}
